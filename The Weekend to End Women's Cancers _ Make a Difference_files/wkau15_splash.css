@@ -1,0 +1,243 @@
+#nav ul li a span.market-option {
+	font-family: 'Verlag Light';
+}
+#nav li.button-option-ml {
+   /*width: 19%;*/
+   white-space: nowrap;
+}
+/*#nav li.ml-oneday {
+   width: 10%;
+}*/
+#nav a.ml-self, #nav a.pr-self {
+   margin-left: 15px;
+}
+#nav .pr-16, #nav .pr-17 {
+	/*width: 10%;*/
+}
+#nav .br-oneday {
+	/*width: 19%;*/
+}
+#nav #br-oneday {
+	font-family: 'Verlag Black';
+}
+#nav ul li>a:hover, #nav ul li>a:focus {
+   color: #151f6d;
+   -ms-transition:.3s ease-in-out;
+   -moz-transition:.3s ease-in-out;
+   -webkit-transition:.3s ease-in-out;
+   transition:.3s ease-in-out;
+}
+.bennie {position: absolute;}
+.bennie-ml-weekend {margin-left: -30px;}
+#nav li div.bennie-pr16, #nav li div.bennie-pr17 {/*margin-left: -30px;*/}
+
+div, span, img {
+	-webkit-transition: all 0.5s ease-out;-moz-transition: all 0.5s ease-out;	
+	-o-transition: all 0.5s ease-out;transition: all 0.5s ease-out;
+}
+	body {margin:0; }
+	ul {margin-left:0;}
+	ul li ul, ul li ol {margin-left:0;}
+	.header-area {height:auto;}
+	.logo-container { 
+		background:url(../img/WKAU_Website_Redesig_SplashPage_7_V2-logoshage-bg.png) no-repeat; 
+		height:363px;  
+		width: 629px; 
+		float: left;
+		z-index: 1; 
+		position: absolute;
+	}
+	.logo-container h1 { margin:0 !important; }	
+	#logo { height:100%;  width: 100%;}
+	#logo img { margin-top:40px; margin-left: 50px;}
+	.br-logo, .ml-logo, .pr-logo, .sy-logo, .ml-logo-1 {display:none;}
+	/* OneDay Brisbane */
+	#logo img.br-logo {width: 70%; margin-top: 20px; margin-left: 100px;}
+
+	#nav {
+		background:#00c3e0; 
+		width: 100%; 
+		padding-left: 629px; 
+		height: 155px; 
+		padding-top: 40px;  
+		float: right;  
+		letter-spacing: 3px; 
+		position: relative;
+	}
+	.bennie { 
+		background:url(../img/WKAU_Website_Redesig_SplashPage_7_V2-rollover-bg.png) no-repeat; 
+		width: 309px; 
+		height: 254px; 
+		display: block; 
+		position: absolute; 
+	}
+	.bennies {position: relative;}
+	.bennie img {margin-top:90px;}
+	.bennie-br, .bennie-ml, .bennie-pr, .bennie-sy {display: none;}
+	.content-banner { 
+		background:url(../img/WKAU-bg-gen.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover; -moz-background-size: cover;  
+		-o-background-size: cover;  
+		background-size: cover; 
+		width: 100% !important;  
+		z-index: 0;
+	}	 
+	.content-banner img:before, .content-banner img:after, .content-banner img::before, .content-banner img::after { 
+		background:url(../img/WKAU_Website_Redesig_SplashPage_7_V2-border.png) repeat-x #000; 
+		height: 16px; 
+		width: 100%;
+	}   
+	.footer { 
+		height:  auto; 
+		color: #151f6d; 
+		background-color: #ffffff; 
+		font-size: 10px; 
+		width: 100%; 
+	}	
+	#nav ul li  {
+		font-size:24px; 
+		text-transform:uppercase; 
+		color:#fff;
+		display:inline; 
+		float:left; 
+		text-align:center;
+		min-height:35px; 
+		padding: 20px;
+		width: 30%;
+	}
+	#nav ul li a {
+		color:#ffffff; 
+		font-family:'Verlag Light';
+	}
+	.active {color:#151f6d;}
+	#nav ul li ul li { display: inline; width:100%; }
+	#nav ul li:hover > ul li.bennie, #nav ul li:focus > ul li.bennie { color:#f1b434; font-size:14px; display:block;  }
+	.desktop-label { font-family:'Verlag Black' ; }	
+	#footer-nav, #footer-nav ul { background:#00c3e0; width: 100%; letter-spacing:3px; line-height: 2; margin-left:0;}
+	#footer-nav ul li {
+		font-size: 16px; 
+		text-transform: uppercase; 
+		color: #fff; 
+		font-family: 'Verlag Light';
+		list-style: none; 
+		display: inline-block; 
+		width: 20%;
+	}
+	#footer-nav ul li ul {display:inline;   }
+	#footer-nav ul li a {font-family:'Verlag Black' ; color:#ffffff;font-size:20px;}
+	#footer-nav ul li .mobile-nav-button { display:none;}	
+	.desktop-nav-button {font-weight: lighter; margin-top: -15px;}
+	.footer-links {background:#00c3e0; text-align:center; padding-top:15px;  padding-bottom:15px;height:65px;}
+	.mouse-print {padding:45px 40px; text-align:center; color:#172abf; font-family:'Verlag Bold' ;}
+	#footer-nav ul button, #footer-nav ul .button{ background-color: none !important; padding: 0; }
+	#footer-nav ul button:hover, #footer-nav ul button:focus, #footer-nav ul .button:hover, #footer-nav ul .button:focus {padding: 0.1rem 0 ;}
+	button, .button{ background-color: inherit;}
+	button:hover, button:focus, .button:hover, .button:focus { 
+		background-color: #141B6F; 
+	}
+	.content-banner { padding-top:96px; }
+
+	@media screen and (min-width: 1700px) and (max-width: 2000px) {
+		#nav li div.bennie-pr {/*margin-left: -75px;*/}
+
+	}
+	@media screen and (max-width: 1900px) {
+		.bennie { background:url(../img/WKAU_Website_Redesig_SplashPage_7_V2-rollover-bg-medium.png) no-repeat; width:240px; height:197px;  margin-top: -5px; margin:0 auto; position: relative;}
+		.bennie img { margin-top:70px;  width:90%;}
+		.bennie-pr img { 
+			margin-top: 60px;  
+			/*width:75%;*/
+		}		
+		.benne-button  { margin:0 auto;}
+		.bennie-br img {width: 55%; margin-top: 36px;}
+		/*#nav li div.bennie-ml-oneday {margin-left: -50px;}*/
+		#nav li div.bennie-br {/*margin-left: -50px;*/}
+	}
+	@media screen and (min-width: 1900px) {
+		#nav li div.bennie-ml-oneday {/*margin-left: -95px;*/}
+		#nav li div.bennie-br {/*margin-left: -85px;*/}
+	}
+	@media screen and (max-width: 1700px) {
+		.logo-container { background:url(../img/WKAU_Website_Redesig_SplashPage_7_V2-logoshage-bg-medium.png) no-repeat ; height:265px;  width: 460px;}
+		.bennie { background:url(../img/WKAU_Website_Redesig_SplashPage_7_V2-rollover-bg-small.png) no-repeat; width:150px; height:123px;  margin:0 auto; position: relative; }
+		.bennie img { margin-top:40px;  width:90%;}
+		.bennie-pr img {
+			margin-top:40px;  
+			/*width:75%;*/
+		}
+		.bennie-br img {width: 50%; margin-top: 30px;}
+		#logo img {margin-top: 20px; margin-left: 0px;}
+		#logo img .br-logo {margin-left: 80px;}
+		#nav {background:#00c3e0; height:130px; padding-left:460px;}	
+		#nav ul li  {font-size:18px; min-height:25px !important; }	
+		.benne-button  {margin:0 auto;}
+		.desktop-nav-button { margin-top: -10px;}
+		#nav li div.bennie-br {/*margin-left: -30px;*/}
+		#nav li div.bennie-ml-oneday {/*margin-left: -30px;*/}
+	}
+
+	@media screen and (max-width: 1700px) and (min-width: 1250px) {
+		#logo img.br-logo {margin-left: 80px;}
+	}
+
+	@media screen and (max-width: 1400px) {			
+		#nav { height:90px; padding-top: 20px; }
+		#nav ul li  { font-size:16px; }	
+		.content-banner {padding-top: 90px;}		
+	}
+	@media screen and (max-width: 1250px) {		
+		.logo-container { background:url(../img/WKAU_Website_Redesig_SplashPage_7_V2-logoshage-bg-medium-small.png) no-repeat ; height:196px;  width: 340px;}		
+		#nav { padding-top: 20px; padding-left:340px;}		
+	}
+	@media screen and (max-width: 1200px) {	
+		#nav li div.bennie-pr16, #nav li div.bennie-pr17 {/*margin-left: -40px;*/}
+	}
+	@media screen and (max-width: 1080px) {
+	}
+	@media screen and (max-width: 1100px) and (min-width: 1024px) {
+		#nav ul li {font-size:14px;}
+		#nav .pr-16, #nav .pr-17 {/*width:9%;*/}
+	}
+
+	@media screen and (min-width: 1000px) and (max-width: 1700px){
+		#nav li div.bennie-ml-weekend {margin-left: 0!important;}
+	}
+	@media screen and (max-width: 1024px) {		
+			
+		.logo-container { background:url(../img/WKAU_Website_Redesig_SplashPage_7_V2-logoshage-bg-small.png) no-repeat ; height:150px;  width: 260px;}
+		#nav ul li  { font-size:14px; }
+		#nav {padding-left:260px;}		
+	}
+	@media screen and (max-width: 960px) {		
+		.logo-container { position:relative;}
+		#nav {padding-left:0px;}
+		#nav ul li  { font-size:18px; }	
+		#footer-nav ul li {font-size: 12px; width: 22%;}	
+	}
+	@media screen and (max-width: 768px) {
+		button, .button{ background-color: #008CBA; }
+		.header-area {background: #00c3e0;  height: 70px; position:absolute; width:100%; }
+		#logo img { margin-top:15px; margin-left: 0px;}
+		.bennies { position:absolute; margin-left: 267px; width:100%}
+		.bennie { background:url(../img/WKAU_Website_Redesig_SplashPage_7_V2-rollover-bg-small.png) no-repeat; width:150px; height:123px; float:right; }
+		
+		#nav {display:none;padding-top: 20px;}
+		#nav ul {margin-left: 0; }
+		.desktop-label{ display:none;}
+		.desktop-label { display:none;}
+		#footer-nav ul li .mobile-nav-button { display: block;}			
+		#footer-nav ul li  {display: block; padding-left: 1.1rem;padding-right: 1.1rem; width:auto;font-size: 16px; }
+		#footer-nav ul li a {font-size:16px;}
+		#footer-nav, #footer-nav ul {height:auto;}
+		.footer-links { height:auto;}
+		#footer-nav ul button, #footer-nav ul .button{padding: 1rem 2rem 1.0625rem;}
+		#footer-nav ul button:hover, #footer-nav ul button:focus, #footer-nav ul .button:hover, #footer-nav ul .button:focus {padding: 1rem 2rem 1.0625rem;}
+		.nav_spacer { display:none;  }
+		.content-banner {padding-top: 70px;}		
+	}
+	@media screen and (max-width: 480px) {
+		.header-area {height: 40px;}
+		.logo-container { background:url(../img/WKAU_Website_Redesig_SplashPage_7_V2-logoshage-bg-small-smaller.png) no-repeat ; height:87px;  width: 150px;}
+		#logo img { margin-top:10px;}
+		.content-banner {padding-top: 40px;}
+	}
